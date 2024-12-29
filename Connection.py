@@ -1,22 +1,21 @@
 import mysql.connector
 
-# Funkcija za kreiranje konekcije sa MySQL bazom
 def create_connection():
     try:
         conn = mysql.connector.connect(
             host="localhost",
-            user="root",        # Promenite prema konfiguraciji
-            password="",        # nema šifre podešeno
-            database="healthdata",  # Ime baze
+            user="root",        
+            password="",        
+            database="healthdata", 
             port=3307
+            
         )
-        return conn #vraca obj klase koja je instanca mysql.connector biblioteke 
+        return conn  
     except mysql.connector.Error as err:
         print(f"Error connecting to database: {err}")
         return None
 
 
-# Funkcije za ubacivanje podataka u odgovarajuće tabele
 def insert_heart_data(cursor, data):
     query = """
     INSERT INTO heart_data (timestamp, heart_rate, stress_level)
