@@ -13,44 +13,44 @@ The system consists of three main components:
 
 # Key features:
 
-~ Simulated health data generation using a CSV file.
+ Simulated health data generation using a CSV file.
 
-~ Kafka-based data streaming, with separate topics for different data types.
+ Kafka-based data streaming, with separate topics for different data types.
 
-~ Real-time data processing, ensuring efficient message handling and storage.
+ Real-time data processing, ensuring efficient message handling and storage.
 
-~ MySQL database integration, optimized for structured health data storage.
+ MySQL database integration, optimized for structured health data storage.
 
 
 # Technologies used:
 
-~Python (data generation, Kafka producer & consumer)
+ Python (data generation, Kafka producer & consumer)
 
-~Apache Kafka (message broker for distributed data processing)
+ Apache Kafka (message broker for distributed data processing)
 
-~MySQL (relational database for structured storage)
+ MySQL (relational database for structured storage)
 
-~Confluent Kafka Python library (Kafka integration)
+ Confluent Kafka Python library (Kafka integration)
 
-~Pandas (data manipulation and analysis).
+ Pandas (data manipulation and analysis).
 
 
 
 # Prerequisites:
 
-~Apache Kafka installed and running
+ Apache Kafka installed and running
 
-~Python 3.x installed
+ Python 3.x installed
 
-~MySQL Server running on port 3307
+ MySQL Server running on port 3307
 
 
 # Potential use cases:
 
-~Real-time health monitoring systems - Continuously track vital signs and detect anomalies using real-time Kafka streams.
+ Real-time health monitoring systems - Continuously track vital signs and detect anomalies using real-time Kafka streams.
 
-~IoT-based patient tracking - Integrate with wearable devices to monitor patient activity, heart rate, and other key health metrics.
+ IoT-based patient tracking - Integrate with wearable devices to monitor patient activity, heart rate, and other key health metrics.
 
-~Data-driven medical insights - Process large volumes of patient data to identify trends and support clinical decision-making.
+ Data-driven medical insights - Process large volumes of patient data to identify trends and support clinical decision-making.
 
-~Remote healthcare solutions - Enable telemedicine platforms by providing real-time health data for remote patient care.
+ Remote healthcare solutions - Enable telemedicine platforms by providing real-time health data for remote patient care.
