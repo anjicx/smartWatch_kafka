@@ -1,4 +1,4 @@
-# # Real-Time Health Data Processing System
+#  Real-Time Health Data Processing System
 
 # Overview
 
