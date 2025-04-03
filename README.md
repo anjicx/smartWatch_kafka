@@ -1,17 +1,17 @@
-Real-Time Health Data Processing System
+# # Real-Time Health Data Processing System
 
-Overview
+# Overview
 
 This project simulates a real-time health data processing system using Python and Apache Kafka. It models how wearable device data (such as heart rate, blood pressure, oxygen saturation, activity, and sleep quality) can be collected, distributed, processed, and stored in a relational database.
 
-SYSTEM ARCHITECTURE
+# SYSTEM ARCHITECTURE
 
 The system consists of three main components:
 1. Data Generation - Simulated health data is read from a CSV file and sent to Kafka.
 2. Data Distribution via Apache Kafka - Data is streamed to five Kafka topics, each corresponding to a specific type of health metric.
 3. Data Storage in MySQL Database - A Kafka consumer retrieves the data, processes it, and stores it efficiently.
 
-KEY FEATURES:
+# KEY FEATURES:
 
 ~ Simulated health data generation using a CSV file.
 
@@ -22,7 +22,7 @@ KEY FEATURES:
 ~ MySQL database integration, optimized for structured health data storage.
 
 
-TECHNOLOGIES USED:
+# TECHNOLOGIES USED:
 
 ~Python (data generation, Kafka producer & consumer)
 
@@ -36,7 +36,7 @@ TECHNOLOGIES USED:
 
 
 
-PREREQUISITES:
+# PREREQUISITES:
 
 ~Apache Kafka installed and running
 
@@ -45,7 +45,7 @@ PREREQUISITES:
 ~MySQL Server running on port 3307
 
 
-POTENTIAL USE CASES:
+# POTENTIAL USE CASES:
 
 ~Real-time health monitoring systems - Continuously track vital signs and detect anomalies using real-time Kafka streams.
 
