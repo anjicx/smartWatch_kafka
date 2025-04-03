@@ -35,12 +35,18 @@ TECHNOLOGIES USED:
 
 PREREQUISITES:
 
-Apache Kafka installed and running
-Python 3.x installed
-MySQL Server running on port 3307
+~Apache Kafka installed and running
+
+~Python 3.x installed
+
+~MySQL Server running on port 3307
 
 POTENTIAL USE CASES:
-Real-time health monitoring systems
-IoT-based patient tracking
-Data-driven medical insights
-Remote healthcare solutions
+
+~Real-time health monitoring systems
+
+~IoT-based patient tracking
+
+~Data-driven medical insights
+
+~Remote healthcare solutions
